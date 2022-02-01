@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="Let's Start"
             android:gravity="center"
-            android:visibility="invisible"
+            android:visibility="visible"
             android:textColor="@color/white"
             android:paddingStart="@dimen/_20sdp"
             android:paddingEnd="@dimen/_20sdp"
