@@ -46,7 +46,7 @@
                 android:id="@+id/main_recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
+                android:layout_margin="@dimen/_8sdp"
                 android:orientation="horizontal"
                 tools:itemCount="1"
                 tools:listitem="@layout/main_category" />
@@ -64,7 +64,7 @@
                 android:id="@+id/sub_recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_10sdp"
+                android:layout_margin="@dimen/_8sdp"
                 android:orientation="horizontal"
                 tools:itemCount="1"
                 tools:listitem="@layout/sub_category" />

@@ -1,5 +1,6 @@
 package com.semsols.veggie.entities
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import org.jetbrains.annotations.PropertyKey
@@ -11,5 +12,8 @@ import java.io.Serializable
 data class RecipeModel(
 
     @PrimaryKey(autoGenerate = true)
-    var id:Int
+    var id: Int,
+    @ColumnInfo(name = "dishName")
+    var dishName: String
+
 ): Serializable
