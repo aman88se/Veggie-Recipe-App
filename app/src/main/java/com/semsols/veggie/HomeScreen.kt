@@ -23,19 +23,19 @@ class HomeScreen : AppCompatActivity() {
 
         //This data is Temporary
         arrMainCategory.add(RecipeModel(1,"Tandoori"))
-        arrMainCategory.add(RecipeModel(1,"Gravy"))
-        arrMainCategory.add(RecipeModel(1,"Snacks"))
-        arrMainCategory.add(RecipeModel(1,"Fried"))
-        arrMainCategory.add(RecipeModel(1,"South Indian"))
-        arrMainCategory.add(RecipeModel(1,"Dessert"))
+        arrMainCategory.add(RecipeModel(2,"Gravy"))
+        arrMainCategory.add(RecipeModel(3,"Snacks"))
+        arrMainCategory.add(RecipeModel(4,"Fried"))
+        arrMainCategory.add(RecipeModel(5,"South Indian"))
+        arrMainCategory.add(RecipeModel(6,"Dessert"))
         mainAdapter.setData(arrMainCategory)
 
         arrSubCategory.add(RecipeModel(1,"Tandoori Chicken"))
-        arrSubCategory.add(RecipeModel(1,"Butter Chicken"))
-        arrSubCategory.add(RecipeModel(1,"Samosa"))
-        arrSubCategory.add(RecipeModel(1,"Chicken Pakoda"))
-        arrSubCategory.add(RecipeModel(1,"Masala Dosa"))
-        arrSubCategory.add(RecipeModel(1,"Rasmalai"))
+        arrSubCategory.add(RecipeModel(2,"Butter Chicken"))
+        arrSubCategory.add(RecipeModel(3,"Samosa"))
+        arrSubCategory.add(RecipeModel(4,"Chicken Pakoda"))
+        arrSubCategory.add(RecipeModel(5,"Masala Dosa"))
+        arrSubCategory.add(RecipeModel(6,"Rasmalai"))
         subAdapter.setData(arrSubCategory)
 
 

@@ -14,7 +14,7 @@
         app:cardElevation="@dimen/_5sdp">
 
         <ImageView
-            android:id="@+id/img_dish"
+            android:id="@+id/dish_pic"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"

@@ -7,6 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.semsols.veggie.R
 import com.semsols.veggie.entities.RecipeModel
 import kotlinx.android.synthetic.main.main_category.view.*
+import kotlinx.android.synthetic.main.main_category.view.dish_name
+import kotlinx.android.synthetic.main.main_category.view.dish_pic
+import kotlinx.android.synthetic.main.sub_category.view.*
 
 class SubAdapter: RecyclerView.Adapter<SubAdapter.RecipeViewHolder>() {
 
@@ -27,6 +30,7 @@ class SubAdapter: RecyclerView.Adapter<SubAdapter.RecipeViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
 
         return RecipeViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.sub_category,parent,false))
+
     }
 
     override fun onBindViewHolder(holder: RecipeViewHolder, position: Int) {
