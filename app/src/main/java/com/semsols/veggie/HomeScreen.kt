@@ -47,8 +47,5 @@ class HomeScreen : AppCompatActivity() {
         sub_recyclerView.adapter = subAdapter
 
 
-
-
-
     }
 }

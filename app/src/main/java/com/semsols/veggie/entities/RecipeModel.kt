@@ -6,9 +6,7 @@ import androidx.room.PrimaryKey
 import org.jetbrains.annotations.PropertyKey
 import java.io.Serializable
 
-@Entity(
-    tableName = "Recipe"
-)
+@Entity(tableName = "Recipe")
 data class RecipeModel(
 
     @PrimaryKey(autoGenerate = true)
