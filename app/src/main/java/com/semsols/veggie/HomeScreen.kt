@@ -6,9 +6,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.semsols.veggie.adapter.MainAdapter
 import com.semsols.veggie.adapter.SubAdapter
 import com.semsols.veggie.entities.RecipeModel
+import com.semsols.veggie.retrofitclient.BaseActivity
 import kotlinx.android.synthetic.main.home_screen.*
 
-class HomeScreen : AppCompatActivity() {
+class HomeScreen : BaseActivity() {
 
     var arrMainCategory = ArrayList<RecipeModel>()
     var arrSubCategory = ArrayList<RecipeModel>()
