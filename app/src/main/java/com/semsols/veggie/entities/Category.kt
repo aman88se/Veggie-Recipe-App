@@ -10,9 +10,9 @@ data class Category(
 
     @PrimaryKey(autoGenerate = true)
     var id: Int,
-    @ColumnInfo(name = "categoryitem")
+    @ColumnInfo(name = "categoryItem")
     @Expose
-    @SerializedName("categoryitem")
+    @SerializedName("categories")
     @TypeConverters(CategoryListConverter::class)
-    val categoryitem: List<CategoryItem>? = null
+    val categorieitems: List<CategoryItem>? = null
 )

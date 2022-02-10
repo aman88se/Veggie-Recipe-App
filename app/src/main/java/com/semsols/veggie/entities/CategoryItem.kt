@@ -8,9 +8,8 @@ import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "CategoryItem")
 data class CategoryItem(
-
     @PrimaryKey(autoGenerate = true)
-    var id: Int,
+    var id:Int,
 
     @ColumnInfo(name = "idcategory")
     @Expose
